@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5347E32C-0B84-488C-8FCE-8F018F305B67"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC76F992-80EE-444F-873B-CA9C808BA518"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SchoolList/App/Data Layer/Networking/SchoolDataApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "schoolUsingAppleStandard()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC76F992-80EE-444F-873B-CA9C808BA518 - 43bc7792c77a9bca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SchoolList.SchoolData.schoolUsingAppleStandard() -&gt; ()"
+                  moduleName = "SchoolList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hridoydas/Documents/SchoolList/SchoolList/App/Data%20Layer/Networking/SchoolDataApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "AC76F992-80EE-444F-873B-CA9C808BA518 - 43bc7792c77a9bca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SchoolList.SchoolData.schoolUsingAppleStandard() -&gt; ()"
+                  moduleName = "SchoolList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hridoydas/Documents/SchoolList/SchoolList/App/Data%20Layer/Networking/SchoolDataApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA7EC329-7263-44CE-88D5-4E1D755AC53E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SchoolList/App/Data Layer/Networking/SchoolDataApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "schoolUsingAppleStandard()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
