@@ -8,8 +8,11 @@
 import Foundation
 import Alamofire
 
+//typealias
+typealias ShoolApiResponse = ((Swift.Result<[School]?, DataError>) -> Void)
+
 protocol SchoolDataApi{
-    func getSchool()
+    func getSchool(completion: @escaping(ShoolApiResponse))
 }
 struct Constant{
     static let schoolDataUrl = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json?$$app_token=L1KwLSwm1yz1N7aWqFCF4dLmM"
@@ -17,11 +20,20 @@ struct Constant{
 
 //school class conforms to schoolDataApi protocol
 class SchoolData: SchoolDataApi{
-    func getSchool() {
-        print(Constant.schoolDataUrl)
-        print("Implement func")
-        alamofireSchoolData()
-       // schoolUsingAppleStandard()
+    func getSchool(completion: @escaping(ShoolApiResponse)) {
+      //Alamofire
+      //callback escaping
+        AF.request(Constant.schoolDataUrl).validate()
+            .responseDecodable(of:[School].self){ response in
+                switch response.result{
+                case .failure(let error):
+                    completion(.failure(.networkError(error.localizedDescription)))
+                    break
+                case .success(let schools):
+                    completion(.success(schools))
+                }
+                
+            }
     }
     
     //Alamofire

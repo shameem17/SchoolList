@@ -14,8 +14,8 @@
             filePath = "SchoolList/App/Data Layer/Networking/SchoolDataApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "schoolUsingAppleStandard()"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "SchoolList/App/Data Layer/Networking/SchoolDataApi.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "schoolUsingAppleStandard()"
             landmarkType = "7">
          </BreakpointContent>

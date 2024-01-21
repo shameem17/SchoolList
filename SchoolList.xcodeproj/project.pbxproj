@@ -21,6 +21,7 @@
 		866A59272B5932C600A121AD /* SchoolDataApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A59262B5932C600A121AD /* SchoolDataApi.swift */; };
 		866A592C2B5933F700A121AD /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A592B2B5933F700A121AD /* DataError.swift */; };
 		866A592F2B59366C00A121AD /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866A592E2B59366C00A121AD /* School.swift */; };
+		86D9295B2B5CF5E60039FF5A /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D9295A2B5CF5E60039FF5A /* SchoolViewModel.swift */; };
 		8D26BAAED640282F615562AF /* Pods_SchoolListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F30DAE92709EB450EFE509 /* Pods_SchoolListTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		866A59262B5932C600A121AD /* SchoolDataApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataApi.swift; sourceTree = "<group>"; };
 		866A592B2B5933F700A121AD /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
 		866A592E2B59366C00A121AD /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		86D9295A2B5CF5E60039FF5A /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
 		A4F30DAE92709EB450EFE509 /* Pods_SchoolListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE265F530EE1277E03010FED /* Pods_SchoolList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchoolList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B9F16BACECBFABD1DE31E0 /* Pods-SchoolList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchoolList.release.xcconfig"; path = "Target Support Files/Pods-SchoolList/Pods-SchoolList.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		866A58EF2B59200B00A121AD /* SchoolList */ = {
 			isa = PBXGroup;
 			children = (
+				86D929582B5CF5C90039FF5A /* MVVM */,
 				866A59202B5926CA00A121AD /* App */,
 				866A58F02B59200B00A121AD /* AppDelegate.swift */,
 				866A58F22B59200B00A121AD /* SceneDelegate.swift */,
@@ -215,6 +218,22 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		86D929582B5CF5C90039FF5A /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				86D929592B5CF5D30039FF5A /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		86D929592B5CF5D30039FF5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86D9295A2B5CF5E60039FF5A /* SchoolViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		9C3710DADA9A89D055BEC4FD /* Frameworks */ = {
@@ -485,6 +504,7 @@
 				866A58F12B59200B00A121AD /* AppDelegate.swift in Sources */,
 				866A59272B5932C600A121AD /* SchoolDataApi.swift in Sources */,
 				866A58F32B59200B00A121AD /* SceneDelegate.swift in Sources */,
+				86D9295B2B5CF5E60039FF5A /* SchoolViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
